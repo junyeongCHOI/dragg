@@ -6,6 +6,11 @@
 
 ## 배포
 
-1. zip -r ../extension.zip . -x '\*.DS_Store' '\_\_MACOSX'
+1. ```bash
+   zip -r ../extension.zip . \
+     -x '\*.DS_Store' '\_\_MACOSX' \
+     '.git/*' 'images/*' \
+     '.prettierrc' 'README.md' '.gitignore'
+   ```
 2. https://chrome.google.com/u/2/webstore/devconsole
 3. 업로드
