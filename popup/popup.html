@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="logo">
+        <span>Dragg</span>
+        <img src="../images/icon-32.png" alt="logo" id="logo" alt="logo" title="Clear settings" />
+      </div>
+      <div class="settings">
+        <div class="setting" id="translateOnDragSetting">
+          <span>Translate on drag</span>
+          <input type="checkbox" id="translateOnDrag" />
+        </div>
+        <div class="setting">
+          <span>Target language</span>
+          <select id="targetLanguage">
+            <option value="en">English</option>
+            <option value="ko">Korean</option>
+            <option value="ja">Japanese</option>
+            <option value="zh">Chinese</option>
+            <option value="es">Spanish</option>
+          </select>
+        </div>
+        <div class="setting" id="darkModeSetting">
+          <span>Dark mode</span>
+          <input type="checkbox" id="darkMode" />
+        </div>
+      </div>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>
