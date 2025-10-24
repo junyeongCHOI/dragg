@@ -6,6 +6,6 @@
 
 ## 배포
 
-1. zip -r dist/extension.zip . -x '\*.DS_Store' '\_\_MACOSX'
+1. zip -r ../extension.zip . -x '\*.DS_Store' '\_\_MACOSX'
 2. https://chrome.google.com/u/2/webstore/devconsole
 3. 업로드
